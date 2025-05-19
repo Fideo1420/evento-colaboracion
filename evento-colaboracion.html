@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuentro de Colaboración</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #005f73;
+    }
+    .activities {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .activity {
+      flex: 1 1 30%;
+      margin: 1rem 0;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #e0f7fa;
+    }
+    form {
+      margin-top: 2rem;
+    }
+    label {
+      display: block;
+      margin: 0.5rem 0 0.2rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #0a9396;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #94d2bd;
+      color: #003c3c;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Encuentro de Colaboración</h1>
+    <p>Sorteo, Rifa y Bingo para Todos</p>
+  </header>
+
+  <section>
+    <h2>Sobre el Evento</h2>
+    <p>Únete a nosotros en una jornada llena de alegría, solidaridad y oportunidades para ganar. El "Encuentro de Colaboración" reúne a la comunidad en un ambiente familiar con actividades que inspiran cooperación y apoyo mutuo.</p>
+  </section>
+
+  <section>
+    <h2>Actividades Destacadas</h2>
+    <div class="activities">
+      <div class="activity">
+        <h3>Sorteo Especial</h3>
+        <p>Participa en nuestro sorteo exclusivo con premios únicos y sorpresas para todos los asistentes.</p>
+      </div>
+      <div class="activity">
+        <h3>Gran Rifa Comunitaria</h3>
+        <p>Contribuye a una buena causa y entra en la rifa de productos y servicios donados por nuestros colaboradores.</p>
+      </div>
+      <div class="activity">
+        <h3>Bingo Familiar</h3>
+        <p>Disfruta del clásico juego de bingo con toda la familia. ¡Premios para chicos y grandes!</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Inscripción y Contacto</h2>
+    <form action="#" method="POST">
+      <label for="name">Nombre completo:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Telefono/cel:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Encuentro de Colaboración - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
